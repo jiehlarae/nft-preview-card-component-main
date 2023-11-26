@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: min(100vh, 900px);
+    width: clamp(100%, 100%, 1440px);
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    height: 596px;
+    width: min(90%, 350px, 350px);
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.card-img {
+    background: center/cover url(./images/image-equilibrium.jpg);
+    flex: 1;
+    border-radius: 8px;
+}
+
+.img-view{
+    background-color: hsl(178, 100%, 50%, .5);
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+    border-radius: 8px;
+}
+
+.img-view img {
+    position: relative;
+    top: 43%;
+    left: 43%;
+}
+
+.img-view:hover {
+    opacity: 1;
+}
+
+.card-text{
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+h1:hover,
+.creator-info span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card-text p {
+    font-size: 18px;
+    line-height: 26px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.currency-days {
+    justify-content: space-between;
+}
+
+.currency-days p,
+.creator-info p {
+    font-size: 16px;
+}
+
+.currency p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.currency img {
+    width: 11px;
+    height: 18px;
+    margin-right: .5rem;
+}
+
+.days img {
+    width: 16px;
+    margin-right: .5rem;
+}
+
+.creator-info img {
+    width: 33px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-right: 1rem;
+}
+
+.creator-info {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 1rem;
+}
+
+.creator-info span {
+    color: hsl(0, 0%, 100%);
+}
+
+/* @media (max-width:400) {
+    .card {
+        width: 80%;
+    }
+} */
