@@ -34,6 +34,7 @@ body {
 .card-img {
     background: center/cover url(./images/image-equilibrium.jpg);
     flex: 1;
+    min-height: 302px;
     border-radius: 8px;
 }
 
