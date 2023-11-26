@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/jiehlarae/nft-preview-card-component-main.git]
+- Live Site URL: [https://jiehlarae.github.io/nft-preview-card-component-main/]
 
 ## My process
 
@@ -62,7 +62,7 @@ body {
 
 ### Continued development
 
-I had a trouble with the image having a new image on top of it with a background color when I hover. I fixed it, but I don't feel confident with my solution. I'm still not quite knowledgeable with seudo, so I am planning to tackle it with future projects.
+I encountered an issue where a new image was overlaying the existing one along with a background color upon hovering. While I managed to resolve it, I'm not entirely confident in my solution. Since I'm still not very familiar with pseudo-elements, I intend to address similar challenges in future projects to enhance my skills.
 
 ### Useful resources
 
