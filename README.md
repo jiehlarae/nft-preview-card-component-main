@@ -36,6 +36,7 @@ Users should be able to:
 - Solution URL: [https://github.com/jiehlarae/nft-preview-card-component-main.git]
 - Live Site URL: [https://jiehlarae.github.io/nft-preview-card-component-main/]
 
+
 ## My process
 
 ### Built with
